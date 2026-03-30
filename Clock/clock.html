@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Clock</title>
+</head>
+<body>
+    <h1>Current Date and Time</h1>
+    <p id="clock"></p>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const utcDateTime = now.toUTCString();
+            document.getElementById('clock').innerText = utcDateTime;
+        }
+        setInterval(updateClock, 1000);
+        updateClock(); // initial call
+    </script>
+</body>
+</html>
