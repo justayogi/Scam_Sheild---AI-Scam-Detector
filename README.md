@@ -72,9 +72,10 @@ npm install
 
 # Run the app
 npm start
-📸 Screenshots (Coming Soon)
+📸 Screenshots 
 
-Add screenshots of your UI here once built
+<img width="764" height="890" alt="image" src="https://github.com/user-attachments/assets/ad2e5618-cf7a-4d0f-bbd4-ade1f41e1076" />
+
 
 📊 Example Use Case
 
