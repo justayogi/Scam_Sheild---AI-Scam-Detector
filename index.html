@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🛡️ ScamShield - AI Scam Detector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🛡️ ScamShield</h1>
+      <p class="subtitle">Detect suspicious messages in seconds</p>
+    </div>
+
+    <div class="card">
+      <h2>Paste Your Message</h2>
+      <textarea 
+        id="inputText" 
+        placeholder="Paste the message, email, or text you want to check..."
+        rows="8"
+      ></textarea>
+      
+      <button onclick="analyse()" class="analyse-btn">
+        🔍 Analyse
+      </button>
+
+      <div id="resultContainer" class="result-container hidden">
+        <h2>Analysis Result</h2>
+        <div id="riskBadge" class="risk-badge"></div>
+        <div id="explanation" class="explanation"></div>
+        <button onclick="reset()" class="reset-btn">Clear & Try Again</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>ScamShield MVP • Protecting users from scams</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
